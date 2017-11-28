@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ActionExampleComponent } from '../app/action/examples/action-example.component';
 import { CardExampleComponent } from '../app/card/basic-card/examples/card-example.component';
 import { DonutExampleComponent } from '../app/chart/donut/examples/donut-example.component';
+import { DonutPercentExampleComponent } from '../app/chart/donut-percent/examples/donut-percent-example.component';
 import { InfoStatusCardExampleComponent }
   from '../app/card/info-status-card/examples/info-status-card-example.component';
 import { EmptyStateExampleComponent } from '../app/empty-state/examples/empty-state-example.component';
@@ -43,6 +44,9 @@ const routes: Routes = [{
   }, {
     path: 'donut',
     component: DonutExampleComponent
+  }, {
+    path: 'donut-percent',
+    component: DonutPercentExampleComponent
   }, {
     path: 'infocard',
     component: InfoStatusCardExampleComponent

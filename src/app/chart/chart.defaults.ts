@@ -5,6 +5,8 @@ export class ChartDefaults {
 
   protected patternflyDefaults: any = (window as any).patternfly.c3ChartDefaults();
 
+  public pfPaletteColors: any = (window as any).patternfly.pfPaletteColors;
+
   public getDefaultColors = this.patternflyDefaults.getDefaultColors;
   public getDefaultDonut = this.patternflyDefaults.getDefaultDonut;
   public getDefaultDonutSize = this.patternflyDefaults.getDefaultDonutSize;
